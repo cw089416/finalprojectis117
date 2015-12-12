@@ -91,7 +91,7 @@ textarea {
   background-color: green;
   width: 960px;
  } */
-div div  #header {
+ #header {
  background-color: bule;
  height: 150px;
 }
@@ -101,9 +101,9 @@ div div div #logo {
  font-size: 72px;
  color: black;
  float: left;
- margin-bottom: 20px;
+ margin-bottom: -20px;
 } 
- .button {
+.button {
 height: 40px;
 width:120px;
 border-color: gray;
@@ -111,7 +111,7 @@ background-color:lightgray;
 border-style: solid;
 border-width: 3px;
 border-radius: 5px;
-margin: auto;
+margin-right 20px;
 text-align: center;
 float-right: 
 }
@@ -145,12 +145,12 @@ float:left;
 float: left;
 } */
 
-/* .float_right {
+ .float_right {
 float: right;
-} */
+}
 
 
- #footer {
+ #middle {
  width: 960px;
  height: 200px;
  margin-top: 25px;
@@ -160,7 +160,7 @@ float: right;
  font-size:18px;
  text-align: center;
 }
- div p {
+#p {
   font-family: Verdana;
   font-size: 16px;
  }
