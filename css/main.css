@@ -87,21 +87,40 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-#wrapper {
+/* #wrapper {
   background-color: green;
   width: 960px;
- }
-#header {
+ } */
+div div  #header {
  background-color: bule;
+ height: 150px;
 }
 
-#logo {
+div div div #logo {
  font-family: Arial, sans;
- font-size: 48px;
+ font-size: 72px;
  color: black;
  float: left;
- margin-top: 20px;
+ margin-bottom: 20px;
+} 
+ .button {
+height: 40px;
+width:120px;
+border-color: gray;
+background-color:lightgray;
+border-style: solid;
+border-width: 3px;
+border-radius: 5px;
+margin: auto;
+text-align: center;
+float-right: 
 }
+#p {
+color: white;
+font-family: Times sans-serif;
+font-size: 10px;
+}
+
 .left {
 float:left;
 }
@@ -114,24 +133,37 @@ float:left;
  padding: 25px;
  
 }
-#contents {
+.contents {
  font-family: Arial sans-serif  font:24px;
- margin-left: 20px;
- float: left;
- clear: both;
-}
+ margin-bottom: 20px;
+ width: 600px;
+ float-left;
 
+}
+/*
 .float_left {
 float: left;
-}
+} */
 
-.float_right {
+/* .float_right {
 float: right;
-}
+} */
 
-.clear {
-clear: both;
+
+ #footer {
+ width: 960px;
+ height: 200px;
+ margin-top: 25px;
 }
+#why {
+ font-family: Verdana;
+ font-size:18px;
+ text-align: center;
+}
+ div p {
+  font-family: Verdana;
+  font-size: 16px;
+ }
 
 
 
