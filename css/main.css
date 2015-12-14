@@ -90,38 +90,29 @@ textarea {
 #wrapper {
   //background-color: green;
   width: 960px;
-  margin-left: -15px;
-  margin-top: -65px;
+  margin-left:auto;
+  margin-right:auto;
  } 
-/*#header {
- background-color: bule;
- height: 150px;
-} */
-
- #logo {
- font-family: Arial,  sans-serif;
- font-size: 60px;
- color: black;
- margin-top: 20px;
- margin-left: 15px;
-} 
-#button {
-height: 40px;
-width:160px;
-border-color: lightgray;
-background-color:lightgray;
-border-style: solid;
-border-radius: 5px;
-margin-left: 650px;
-margin-top:  -120px;
-font-size: 24px;
-text-align: center;
-}
 
 .left {
 float:left;
 }
+#menu {
+  width: 75%;
 
+}
+#logo {
+  width:25%;
+}
+#header {
+  height: 93px;
+  line-height: 93px;
+}
+#header h1, ul {
+
+ padding: 0px;
+ margin: 0px;
+}
 #menu li {
  color:  black;
  display: inline;
@@ -135,35 +126,47 @@ float:left;
  margin-bottom:- 20px;
  width: 600px;
  background-color: lightgray;
-// float-left;
+}
+#banner_left {
+  width: 317px;
+  height: 284px;
+  background-color:#d6d2d1;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 300px;
 }
 
+#button {
+background-color: darkgray;
+margin-top: 100px;
+margin-left: 248px;
+}
 
-/*
-.float_left {
-float: left;
-}*/ 
+#banner_right {
+  width:  313px;
+  height: 314px;
+  background-color: #d6d2d1;
+  background-image: url('../img/candles.gif');
+  background-repeat: no-repeat;
+}
 
- .float_right {
+.float_right {
 float: right;
 } 
 
 
- #middle {
+#middle {
  width: 960px;
  height: 200px;
  margin-top: 25px;
-}
-#why {
+} 
+
+#why, h2 {
  font-family: Verdana;
  font-size:18px;
- margin-left: 400px;
+ margin-left: 130px;
+ padding-left: 350px;
 }
-#p {
-  font-family: Times;
-  font-size: 16px;
-  margin-left: -350px;
- }
 
 #footer li {
 display: inline;
