@@ -87,67 +87,66 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/* #wrapper {
-  background-color: green;
+#wrapper {
+  //background-color: green;
   width: 960px;
- } */
- #header {
+  margin-left: -15px;
+  margin-top: -65px;
+ } 
+/*#header {
  background-color: bule;
  height: 150px;
-}
+} */
 
-div div div #logo {
- font-family: Arial, sans;
- font-size: 72px;
+ #logo {
+ font-family: Arial,  sans-serif;
+ font-size: 60px;
  color: black;
- float: left;
- margin-bottom: -20px;
+ margin-top: 20px;
+ margin-left: 15px;
 } 
-.button {
+#button {
 height: 40px;
-width:120px;
-border-color: gray;
+width:160px;
+border-color: lightgray;
 background-color:lightgray;
 border-style: solid;
-border-width: 3px;
 border-radius: 5px;
-margin-right 20px;
+margin-left: 650px;
+margin-top:  -120px;
+font-size: 24px;
 text-align: center;
-float-right: 
-}
-#p {
-color: white;
-font-family: Times sans-serif;
-font-size: 10px;
 }
 
 .left {
 float:left;
 }
 
-
 #menu li {
-
  color:  black;
  display: inline;
  padding: 25px;
- 
+ margin-top: 50px;
+ padding-top: 30px;
+ clear: both;
 }
-.contents {
- font-family: Arial sans-serif  font:24px;
- margin-bottom: 20px;
+#content {
+ font-family: Arial bold,  font:24px;
+ margin-bottom:- 20px;
  width: 600px;
- float-left;
-
+ background-color: lightgray;
+// float-left;
 }
+
+
 /*
 .float_left {
 float: left;
-} */
+}*/ 
 
  .float_right {
 float: right;
-}
+} 
 
 
  #middle {
@@ -158,12 +157,21 @@ float: right;
 #why {
  font-family: Verdana;
  font-size:18px;
- text-align: center;
+ margin-left: 400px;
 }
 #p {
-  font-family: Verdana;
+  font-family: Times;
   font-size: 16px;
+  margin-left: -350px;
  }
+
+#footer li {
+display: inline;
+padding: 25px;
+}
+.clear {
+clear: both;
+}
 
 
 
