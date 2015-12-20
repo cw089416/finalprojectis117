@@ -122,7 +122,7 @@ float:left;
  clear: both;
 }
 #content {
- font-family: Arial bold,  font:24px;
+ font-family: Arial bold;  font:28px;
  margin-bottom:- 20px;
  width: 600px;
  background-color: lightgray;
@@ -140,7 +140,14 @@ float:left;
 background-color: darkgray;
 margin-top: 100px;
 margin-left: 248px;
+} 
+#button1 {
+background-color: darkgray;
+margin-top: 41px;
+margin-left: 629px;
+margin-right: 262px;
 }
+
 
 #banner_right {
   width:  313px;
@@ -165,7 +172,7 @@ float: right;
  font-family: Verdana;
  font-size:18px;
  margin-left: 130px;
- padding-left: 350px;
+ padding-left: 230px;
 }
 
 #footer li {
